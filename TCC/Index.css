@@ -1,0 +1,78 @@
+@charset "utf-8";
+@font-face {  font-family:Font1 ;
+    src:url(Solar.otf)
+}
+@font-face {  font-family:Font2 ;
+    src:url(Lofi.otf)
+}
+.title{ text-decoration: none; font-family:Font2; font-weight: bold; font-size: 35px; color: rgb(253, 82, 0);}
+.titleL{ text-decoration: none; font-family:Font2; font-weight: bold; font-size: 35px; color: papayawhip;}
+
+.textos {font-family:Font2; font-weight: bold; font-size: 25px; color: rgb(42, 45, 52);  }
+/* NAV start */
+
+.logo {text-align:start; margin-right: 20px;   background: linear-gradient(to right, #000 20%, rgb(253, 82, 0) 30%, rgb(253, 82, 0) 70%, #000 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 200% auto;
+    animation: textShine 5s ease-in-out infinite ;
+    font-family:Font1 ;
+    font-size: 60px;
+  }
+  
+  @keyframes textShine {
+    to {
+      background-position: 200%;
+    }
+  }
+
+.nav {
+    box-shadow: inset 0 0 0 0 rgb(0, 207, 193);
+    color: rgb(42, 45, 52);
+    margin: 0 -0px;
+    padding: 10px;
+    transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+    text-decoration: none;
+    text-align: right;
+   
+}
+.nav:hover {
+    box-shadow: inset 250px 0 0 0 rgb(0, 207, 193);
+    color: rgb(255, 255, 255);
+  }
+
+  header { background-color: rgb(249, 245, 255); height: 100px; border: solid 1px rgb(20, 36, 138)
+  }
+   nav {margin-left: auto; margin-right: auto; padding: 20px; font-size: 50px;font-family:Font2; 
+  }
+ /* NAV end */
+
+body{ margin: 0; padding: 0; background-color: black; min-height: 100vh;
+  min-width: 182vh;
+    
+    margin: 2 auto;
+}
+/* Sections start */
+.section1{ height: 450px;background-color: papayawhip; }
+.molding1{  padding: 40px 350px 60px ; height: 200px; width: 250px; 
+}
+
+.section2 {height: 450px; border: solid 1px rgb(20, 36, 138); background-color:rgb(253, 82, 0) ; 
+}
+.molding2{  padding: 40px 750px 60px ; height: 200px; width: 250px; 
+}
+
+.section3 {height: 450px; ; background-color:papayawhip ; 
+}
+.molding3{  padding: 40px 350px 60px ; height: 200px; width: 250px; 
+}
+
+/* Sections end */
+
+footer{background-color: rgb(249, 245, 255); height: 300px; border: solid 1px rgb(20, 36, 138)}
+
+
+  
+  
