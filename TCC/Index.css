@@ -5,6 +5,8 @@
 @font-face {  font-family:Font2 ;
     src:url(Lofi.otf)
 }
+
+/* Home */
 .title{ text-decoration: none; font-family:Font2; font-weight: bold; font-size: 35px; color: rgb(253, 82, 0);}
 .titleL{ text-decoration: none; font-family:Font2; font-weight: bold; font-size: 35px; color: papayawhip;}
 
@@ -70,6 +72,18 @@ body{ margin: 0; padding: 0; background-color: black; min-height: 100vh;
 }
 
 /* Sections end */
+/* Home End */
+
+
+
+
+
+
+
+
+
+
+
 
 footer{background-color: rgb(249, 245, 255); height: 300px; border: solid 1px rgb(20, 36, 138)}
 
