@@ -9,9 +9,9 @@
 .titleL{ text-decoration: none; font-family:Font2; font-weight: bold; font-size: 35px; color: papayawhip;}
 
 .textos {font-family:Font2; font-weight: bold; font-size: 25px; color: rgb(42, 45, 52);  }
-/* NAV start */
 
-.logo {text-align:start; margin-right: 20px;   background: linear-gradient(to right, #000 20%, rgb(253, 82, 0) 30%, rgb(253, 82, 0) 70%, #000 80%);
+/* NAV start */
+.logo {text-align:start; margin-right: 20px;   background: linear-gradient(to right, #000 20%, rgb(253, 82, 0) 30%, #000 70%, rgb(253, 82, 0) 80%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -29,7 +29,7 @@
   }
 
 .nav {
-    box-shadow: inset 0 0 0 0 rgb(0, 207, 193);
+    box-shadow: inset 0 0 0 0 rgb(253, 82, 0);
     color: rgb(42, 45, 52);
     margin: 0 -0px;
     padding: 10px;
@@ -39,7 +39,7 @@
    
 }
 .nav:hover {
-    box-shadow: inset 250px 0 0 0 rgb(0, 207, 193);
+    box-shadow: inset 250px 0 0 0 rgb(253, 82, 0);
     color: rgb(255, 255, 255);
   }
 
@@ -50,7 +50,7 @@
  /* NAV end */
 
 body{ margin: 0; padding: 0; background-color: black; min-height: 100vh;
-  min-width: 182vh;
+  min-width: 100vh;
     
     margin: 2 auto;
 }
@@ -61,7 +61,7 @@ body{ margin: 0; padding: 0; background-color: black; min-height: 100vh;
 
 .section2 {height: 450px; border: solid 1px rgb(20, 36, 138); background-color:rgb(253, 82, 0) ; 
 }
-.molding2{  padding: 40px 750px 60px ; height: 200px; width: 250px; 
+.molding2{  padding: 40px 350px 60px ; height: 200px; width: 250px; 
 }
 
 .section3 {height: 450px; ; background-color:papayawhip ; 
